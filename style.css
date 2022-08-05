@@ -50,14 +50,17 @@ section{
 .btn{
    border-radius: .5rem;
     display: inline-block;
-    padding: 1.2rem 3rem ;
-    font-size: 1.5rem;
+    padding: 1.4rem 1.8rem;
+    font-size: 16px;
     color:var(--white);
     background: var(--gold);
     cursor: pointer;
 }
 .navbar .btn i{
     margin-right:1rem ;
+}
+.navbar .btn{
+    margin-left: 4rem;
 }
 header{
    
@@ -75,9 +78,10 @@ header .logo img{
 }
 
 header .navbar a{
-    margin:0 1rem;
-    font-size: 1.6rem;
+    margin:1.2rem;
+    font-size: 16px;
     color:var(--blue);
+   
 }
 
 header.active{
@@ -139,7 +143,7 @@ background: linear-gradient(0deg, rgba(20,18,49,1) 12%, rgba(16,16,165,1) 100%, 
     justify-content: center;
     align-items: center;
  
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
     position: relative;
 }
 .banner .box-container{
@@ -186,7 +190,7 @@ background: linear-gradient(0deg, rgba(20,18,49,1) 12%, rgba(16,16,165,1) 100%, 
     position: relative;
     display: block;
     width: calc(132% + 1.3px);
-    height: 158px;
+    height: 178px;
 }
 
 .custom-shape-divider-top-1659535479 .shape-fill {
@@ -269,9 +273,10 @@ background: linear-gradient(0deg, rgba(20,18,49,1) 12%, rgba(16,16,165,1) 100%, 
 }
 .event .box-container .box .content h3 span{
     color: var(--seablue);
+   
 }
 .event .box-container .box .content .days{
-    font-size: 1.5rem;
+    font-size: 16px;
     font-weight: bolder;
     color: var(--blue) ;
     padding-top: 1.5rem;
@@ -292,7 +297,7 @@ background: linear-gradient(0deg, rgba(20,18,49,1) 12%, rgba(16,16,165,1) 100%, 
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    
+    margin: 9rem 0;
     align-items: center;
     }
     .row .image{
@@ -324,10 +329,7 @@ color: var(--blue);
 }
 
 
-.row .content .btn{
-    font-size: 1.5rem;
 
-}
 
 
 .feedback{
@@ -378,7 +380,7 @@ color: var(--blue);
 }
 
 .video {
-    margin: 2rem 0;
+    margin: 6rem 0;
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -421,6 +423,12 @@ color: var(--blue);
     font-size: 7rem;
     color: var(--grey);
 }
+.video .container .playbutton button{
+   background: none;
+}
+.video .container .playbutton button :hover{
+  transform: scale(1.1);
+ }
 .video .container .playbutton h4{
     font-size: 2.5rem;
     color: var(--white);
