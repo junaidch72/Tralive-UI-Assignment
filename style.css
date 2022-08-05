@@ -60,7 +60,10 @@ section{
     margin-right:1rem ;
 }
 .navbar .btn{
+   
     margin-left: 4rem;
+ 
+
 }
 header{
    
@@ -93,15 +96,20 @@ header.active{
 
 
 .home{
-    min-height: 100vh;
+   
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+   position: relative;
 
     
 }
 
 .home .content{
+    position: absolute;
+    top: 50%;
     max-width: 60rem;
     display: flex;
     align-items: center;
@@ -132,8 +140,6 @@ background: linear-gradient(0deg, rgba(20,18,49,1) 12%, rgba(16,16,165,1) 100%, 
 
 .home .content .btn{
     margin-top: 1rem;
-    padding: 1.5rem 3rem ;
-    font-size: 16px;
     background-color: var(--blue);
 }
 
@@ -142,9 +148,10 @@ background: linear-gradient(0deg, rgba(20,18,49,1) 12%, rgba(16,16,165,1) 100%, 
     display: flex;
     justify-content: center;
     align-items: center;
- 
+   width: 100vw;
     margin-bottom: 10rem;
     position: relative;
+
 }
 .banner .box-container{
  width: 100%;
@@ -585,6 +592,17 @@ color: var(--blue);
         background: var(--black);
     }
 
+    .home{
+   
+        height: 50vh;
+      
+    
+        
+    }
+    .btn{
+        font-size: 14px;
+    }
+
     header .navbar{
         position: absolute;
         top:100%; right: -300%;
@@ -652,7 +670,14 @@ color: var(--blue);
     .home .content p{
         font-size: 11px;
     }
+    
+    .home{
+        height: 50vh;
+    }
 
+    .btn{
+        font-size: 13px;
+    }
     .row .content h3{
         font-size: 3rem;
  
@@ -746,7 +771,7 @@ color: var(--blue);
 @media (max-width: 767px) {
     .custom-shape-divider-top-1659535479 svg {
         width: calc(163% + 1.3px);
-        height: 138px;
+        height: 188px;
     }
 }
 
